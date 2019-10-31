@@ -1,5 +1,5 @@
 {
-  "name": "simple-state",
+  "name": "next-state",
   "version": "0.0.0",
   "description": "Simple event-driven state machine",
   "main": "src/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reklatsmasters/simple-state.git"
+    "url": "git+https://github.com/reklatsmasters/next-state.git"
   },
   "files": [
     "src"
@@ -24,9 +24,9 @@
   "author": "Dmitriy Tsvettsikh <me@reklatsmasters.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reklatsmasters/simple-state/issues"
+    "url": "https://github.com/reklatsmasters/next-state/issues"
   },
-  "homepage": "https://github.com/reklatsmasters/simple-state#readme",
+  "homepage": "https://github.com/reklatsmasters/next-state#readme",
   "eslintConfig": {
     "extends": "@nodertc",
     "overrides": [

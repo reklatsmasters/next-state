@@ -1,11 +1,11 @@
-# simple-state
+# next-state
 
-[![Build Status](https://travis-ci.com/reklatsmasters/simple-state.svg?branch=master)](https://travis-ci.com/reklatsmasters/simple-state)
-[![npm](https://img.shields.io/npm/v/simple-state.svg)](https://npmjs.org/package/simple-state)
-[![node](https://img.shields.io/node/v/simple-state.svg)](https://npmjs.org/package/simple-state)
-[![license](https://img.shields.io/npm/l/simple-state.svg)](https://npmjs.org/package/simple-state)
-[![downloads](https://img.shields.io/npm/dm/simple-state.svg)](https://npmjs.org/package/simple-state)
-[![Coverage Status](https://coveralls.io/repos/github/reklatsmasters/simple-state/badge.svg?branch=master)](https://coveralls.io/github/reklatsmasters/simple-state?branch=master)
+[![Build Status](https://travis-ci.com/reklatsmasters/next-state.svg?branch=master)](https://travis-ci.com/reklatsmasters/next-state)
+[![npm](https://img.shields.io/npm/v/next-state.svg)](https://npmjs.org/package/next-state)
+[![node](https://img.shields.io/node/v/next-state.svg)](https://npmjs.org/package/next-state)
+[![license](https://img.shields.io/npm/l/next-state.svg)](https://npmjs.org/package/next-state)
+[![downloads](https://img.shields.io/npm/dm/next-state.svg)](https://npmjs.org/package/next-state)
+[![Coverage Status](https://coveralls.io/repos/github/reklatsmasters/next-state/badge.svg?branch=master)](https://coveralls.io/github/reklatsmasters/next-state?branch=master)
 
 Simple event-driven state machine.
 
@@ -16,7 +16,7 @@ Simple event-driven state machine.
 ## Install
 
 ```
-npm i simple-state
+npm i next-state
 ```
 
 ##  Usage
@@ -30,7 +30,7 @@ INTERMEDIATE -> ACTIVE <-> INACTIVE
 You should define 3 transitions:
 
 ```js
-const { createState, createMachine } = require('simple-state');
+const { createState, createMachine } = require('next-state');
 
 const INTERMEDIATE = 'INTERMEDIATE';
 const ACTIVE = 'ACTIVE';
