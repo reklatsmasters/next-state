@@ -1,6 +1,6 @@
 # next-state
 
-[![Build Status](https://travis-ci.com/reklatsmasters/next-state.svg?branch=master)](https://travis-ci.com/reklatsmasters/next-state)
+[![Build Status](https://travis-ci.com/reklatsmasters/simple-state.svg?branch=master)](https://travis-ci.com/reklatsmasters/simple-state)
 [![npm](https://img.shields.io/npm/v/next-state.svg)](https://npmjs.org/package/next-state)
 [![node](https://img.shields.io/node/v/next-state.svg)](https://npmjs.org/package/next-state)
 [![license](https://img.shields.io/npm/l/next-state.svg)](https://npmjs.org/package/next-state)
