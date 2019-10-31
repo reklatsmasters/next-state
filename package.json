@@ -1,0 +1,66 @@
+{
+  "name": "simple-state",
+  "version": "0.0.0",
+  "description": "Simple event-driven state machine",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "npx eslint src",
+    "cover": "npx jest --coverage",
+    "test": "npm run lint && npx jest",
+    "test-ci": "npm run lint && npm run cover"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reklatsmasters/simple-state.git"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "finite",
+    "state",
+    "machine"
+  ],
+  "author": "Dmitriy Tsvettsikh <me@reklatsmasters.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reklatsmasters/simple-state/issues"
+  },
+  "homepage": "https://github.com/reklatsmasters/simple-state#readme",
+  "eslintConfig": {
+    "extends": "@nodertc",
+    "overrides": [
+      {
+        "files": [
+          "test.js"
+        ],
+        "env": {
+          "jest": true
+        }
+      }
+    ]
+  },
+  "devDependencies": {
+    "@nodertc/eslint-config": "^0.3.0",
+    "@types/jest": "^24.0.21",
+    "@types/node": "^12.12.3",
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test.js"
+    ],
+    "coverageDirectory": "<rootDir>/coverage",
+    "collectCoverageFrom": [
+      "**/src/*.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "engines": {
+    "node": ">=8.3"
+  }
+}
